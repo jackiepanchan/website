@@ -1,0 +1,35 @@
+[33mcommit d54fa8ab75d09b767999845c66af50c1142a8805[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 11:00:05 2016 -0500
+
+    Add an h1 tag
+
+[33mcommit 87c2b409e5705f388edfb604a3d309e19e2f9c60[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:25:04 2016 -0500
+
+    Add baz
+
+[33mcommit 05f8e36d1f334b342009ee8ee3e2ebae7ea5ac6b[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:23:40 2016 -0500
+
+    Add content to index.html
+
+[33mcommit 5dd24e126332fbf5d123be69b5c6ea4e6f56bfea[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:20:03 2016 -0500
+
+    Add bar
+
+[33mcommit 39e20977edb0f06082549e04745463496ebff58a[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:18:38 2016 -0500
+
+    Add foo to repository
+
+[33mcommit 7fbeb77d356b2321055bfa17b7ebd5a0a358c58f[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:12:39 2016 -0500
+
+    Initialize repository
