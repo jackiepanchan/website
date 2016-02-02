@@ -1,0 +1,369 @@
+[33mcommit 647b5ac9f6a6c94f2d0b2fe654de57f14a5aa053[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 14:12:26 2016 -0500
+
+    Add an image
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 8fbe43a..540466d 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -10,6 +10,6 @@[m [mand be sure to [join the email list](http://learnenough.com/#email_list) and[m
+ After finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to be[m
+ *dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+ back up data, share my work with others, and collaborate with programmers and[m
+[31m-other users of Git[m
+[32m+[m[32mother users of Git.[m
+ For more information on Git, see the[m
+ [official Git documentation](https://git-scm.com/).[m
+[1mdiff --git a/images/breaching_whale.jpg b/images/breaching_whale.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a821434[m
+Binary files /dev/null and b/images/breaching_whale.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 706a1be..74043f7 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -6,5 +6,6 @@[m
+   <body>[m
+     <h1>hello, world</h1>[m
+     <p>Call me Ishmael.</p>[m
+[32m+[m[32m    <img src="images/breaching_whale.jpg" />[m
+   </body>[m
+ </html>[m
+
+[33mcommit a0ee566d33f249e393231159801497d72ff50e46[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:38:34 2016 -0500
+
+    Modified README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex f9db3ed..8fbe43a 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -10,11 +10,6 @@[m [mand be sure to [join the email list](http://learnenough.com/#email_list) and[m
+ After finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to be[m
+ *dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+ back up data, share my work with others, and collaborate with programmers and[m
+[31m-other users of Git.[m
+[31m-<<<<<<< HEAD[m
+[32m+[m[32mother users of Git[m
+ For more information on Git, see the[m
+ [official Git documentation](https://git-scm.com/).[m
+[31m-=======[m
+[31m-This is the link to the[m
+[31m-[*official Git documentation*](https://git-scm.com/documentation).[m
+[31m->>>>>>> 13ceca2334f0933e6f19a9a7d9f983e13bef4592[m
+
+[33mcommit 8c2c3eb9a9d5b7218fbb5286e6aed9216d67702a[m
+Merge: 46dc906 13ceca2
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:35:10 2016 -0500
+
+    Merge branch 'master' of https://github.com/jackiepanchan/website
+    
+    Conflicts:
+    	README.md
+
+[33mcommit 46dc906e06347887e4598cbb25d58151fe691c0b[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:33:16 2016 -0500
+
+    Update README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 28918e7..540466d 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -11,5 +11,5 @@[m [mAfter finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to b[m
+ *dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+ back up data, share my work with others, and collaborate with programmers and[m
+ other users of Git.[m
+[31m-This is the link to the[m
+[31m-[*official Git documentation*](https://git-scm.com/documentation).[m
+[32m+[m[32mFor more information on Git, see the[m
+[32m+[m[32m[official Git documentation](https://git-scm.com/).[m
+
+[33mcommit 0304a20a0be3971dcd42f9112c133fd16fbe65a9[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:25:32 2016 -0500
+
+    Update README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 85a89fc..28918e7 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -11,3 +11,5 @@[m [mAfter finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to b[m
+ *dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+ back up data, share my work with others, and collaborate with programmers and[m
+ other users of Git.[m
+[32m+[m[32mThis is the link to the[m
+[32m+[m[32m[*official Git documentation*](https://git-scm.com/documentation).[m
+
+[33mcommit 13ceca2334f0933e6f19a9a7d9f983e13bef4592[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:25:32 2016 -0500
+
+    Update README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 85a89fc..28918e7 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -11,3 +11,5 @@[m [mAfter finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to b[m
+ *dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+ back up data, share my work with others, and collaborate with programmers and[m
+ other users of Git.[m
+[32m+[m[32mThis is the link to the[m
+[32m+[m[32m[*official Git documentation*](https://git-scm.com/documentation).[m
+
+[33mcommit af62edc133f2c6229b5573c54cc6db10122c74c2[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 13:19:18 2016 -0500
+
+    Add README file
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..85a89fc[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m# Sample Website[m
+[32m+[m
+[32m+[m[32mThis is a sample website made as part of[m
+[32m+[m[32m[*Learn Enough™ Git to Be Dangerous*](http://learnenough.com/git-tutorial),[m
+[32m+[m[32mpossibly the greatest beginner Git tutorial in the history of the Universe.[m
+[32m+[m[32mYou should totally [check it out](http://learnenough.com/git-tutorial),[m
+[32m+[m[32mand be sure to [join the email list](http://learnenough.com/#email_list) and[m
+[32m+[m[32m[follow @learnenough](http://twitter.com/learnenough) on Twitter.[m
+[32m+[m
+[32m+[m[32mAfter finishing *Learn Enough™ Git to Be Dangerous*, I'll know enough Git to be[m
+[32m+[m[32m*dangerous*. This means I'll be able to use Git to track changes in my projects,[m
+[32m+[m[32mback up data, share my work with others, and collaborate with programmers and[m
+[32m+[m[32mother users of Git.[m
+[1mdiff --git a/ad b/ad[m
+[1mnew file mode 100644[m
+[1mindex 0000000..20f99b2[m
+[1m--- /dev/null[m
+[1m+++ b/ad[m
+[36m@@ -0,0 +1,35 @@[m
+[32m+[m[32m[33mcommit d54fa8ab75d09b767999845c66af50c1142a8805[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Tue Feb 2 11:00:05 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add an h1 tag[m
+[32m+[m
+[32m+[m[32m[33mcommit 87c2b409e5705f388edfb604a3d309e19e2f9c60[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:25:04 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add baz[m
+[32m+[m
+[32m+[m[32m[33mcommit 05f8e36d1f334b342009ee8ee3e2ebae7ea5ac6b[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:23:40 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add content to index.html[m
+[32m+[m
+[32m+[m[32m[33mcommit 5dd24e126332fbf5d123be69b5c6ea4e6f56bfea[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:20:03 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add bar[m
+[32m+[m
+[32m+[m[32m[33mcommit 39e20977edb0f06082549e04745463496ebff58a[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:18:38 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add foo to repository[m
+[32m+[m
+[32m+[m[32m[33mcommit 7fbeb77d356b2321055bfa17b7ebd5a0a358c58f[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:12:39 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Initialize repository[m
+[1mdiff --git a/fa b/fa[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a08b432[m
+[1m--- /dev/null[m
+[1m+++ b/fa[m
+[36m@@ -0,0 +1,66 @@[m
+[32m+[m[32m[33mcommit d54fa8ab75d09b767999845c66af50c1142a8805[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Tue Feb 2 11:00:05 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add an h1 tag[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/index.html b/index.html[m[m
+[32m+[m[32m[1mindex 4b5fa63..45d754a 100644[m[m
+[32m+[m[32m[1m--- a/index.html[m[m
+[32m+[m[32m[1m+++ b/index.html[m[m
+[32m+[m[32m[36m@@ -1 +1 @@[m[m
+[32m+[m[32m[31m-hello, world[m[m
+[32m+[m[32m[32m+[m[32m<h1>hello, world</h1>[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 87c2b409e5705f388edfb604a3d309e19e2f9c60[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:25:04 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add baz[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/baz b/baz[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..e69de29[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 05f8e36d1f334b342009ee8ee3e2ebae7ea5ac6b[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:23:40 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add content to index.html[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/index.html b/index.html[m[m
+[32m+[m[32m[1mindex e69de29..4b5fa63 100644[m[m
+[32m+[m[32m[1m--- a/index.html[m[m
+[32m+[m[32m[1m+++ b/index.html[m[m
+[32m+[m[32m[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32m[32m+[m[32mhello, world[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 5dd24e126332fbf5d123be69b5c6ea4e6f56bfea[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:20:03 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add bar[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/bar b/bar[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..e69de29[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 39e20977edb0f06082549e04745463496ebff58a[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:18:38 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Add foo to repository[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/foo b/foo[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..e69de29[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 7fbeb77d356b2321055bfa17b7ebd5a0a358c58f[m[m
+[32m+[m[32mAuthor: jackiepanchan <jackiepanchan@gmail.com>[m
+[32m+[m[32mDate:   Mon Feb 1 18:12:39 2016 -0500[m
+[32m+[m
+[32m+[m[32m    Initialize repository[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/index.html b/index.html[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..e69de29[m[m
+
+[33mcommit a75f778e5662b72e9c0cd6f04700496dbeb32948[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 11:38:47 2016 -0500
+
+    Update HTML title
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex afcd202..706a1be 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,7 +1,7 @@[m
+ <!DOCTYPE html>[m
+ <html>[m
+   <head>[m
+[31m-    <title></title>[m
+[32m+[m[32m    <title>A whale of a greeting</title>[m
+   </head>[m
+   <body>[m
+     <h1>hello, world</h1>[m
+
+[33mcommit 3ad8c72b797b780626c969420ad65e4687cdaccd[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 11:37:55 2016 -0500
+
+    Add some HTML structure
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 45d754a..afcd202 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1,10 @@[m
+[31m-<h1>hello, world</h1>[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m  <head>[m
+[32m+[m[32m    <title></title>[m
+[32m+[m[32m  </head>[m
+[32m+[m[32m  <body>[m
+[32m+[m[32m    <h1>hello, world</h1>[m
+[32m+[m[32m    <p>Call me Ishmael.</p>[m
+[32m+[m[32m  </body>[m
+[32m+[m[32m</html>[m
+
+[33mcommit d54fa8ab75d09b767999845c66af50c1142a8805[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Tue Feb 2 11:00:05 2016 -0500
+
+    Add an h1 tag
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4b5fa63..45d754a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1 @@[m
+[31m-hello, world[m
+[32m+[m[32m<h1>hello, world</h1>[m
+
+[33mcommit 87c2b409e5705f388edfb604a3d309e19e2f9c60[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:25:04 2016 -0500
+
+    Add baz
+
+[1mdiff --git a/baz b/baz[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 05f8e36d1f334b342009ee8ee3e2ebae7ea5ac6b[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:23:40 2016 -0500
+
+    Add content to index.html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e69de29..4b5fa63 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mhello, world[m
+
+[33mcommit 5dd24e126332fbf5d123be69b5c6ea4e6f56bfea[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:20:03 2016 -0500
+
+    Add bar
+
+[1mdiff --git a/bar b/bar[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 39e20977edb0f06082549e04745463496ebff58a[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:18:38 2016 -0500
+
+    Add foo to repository
+
+[1mdiff --git a/foo b/foo[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 7fbeb77d356b2321055bfa17b7ebd5a0a358c58f[m
+Author: jackiepanchan <jackiepanchan@gmail.com>
+Date:   Mon Feb 1 18:12:39 2016 -0500
+
+    Initialize repository
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
